@@ -1,5 +1,4 @@
-ranger
+[ranger](http://xrangers.com)
 ======
 
 Yes, Just a Ranger !
-haha
