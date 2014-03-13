@@ -17,7 +17,6 @@ type Posts struct {
 }
 
 func (m *M) CreatePostsTable_1394290039_Up(hd *hood.Hood) {
-	// TODO: implement
     hd.CreateTable(&Posts{})
     hd.CreateIndex("posts", "uniq_urlname", true, "urlname")
     hd.CreateIndex("posts", "user_index", false, "User_id")
@@ -25,6 +24,5 @@ func (m *M) CreatePostsTable_1394290039_Up(hd *hood.Hood) {
 }
 
 func (m *M) CreatePostsTable_1394290039_Down(hd *hood.Hood) {
-	// TODO: implement
     hd.DropTableIfExists(&Posts{})
 }
